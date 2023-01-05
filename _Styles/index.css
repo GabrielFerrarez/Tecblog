@@ -1,0 +1,68 @@
+/* Formatação */
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    body {
+        font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+        background-color: #e6e6e6;
+    }
+/* 
+    * {
+        border: solid red 1px;
+    } */
+
+    .fonte-branca {
+        color: white;
+    }
+
+/* ---------------------- */
+
+
+/* Cabeçalho */
+
+    header {
+        text-align: center;
+        background-color: #f7b600;
+    }
+
+/* ---------------------- */
+
+
+/* cabeçalho logo */
+
+    #logo, #menu-principal {
+        padding: 10px;
+    }
+
+    #logo>h1 {
+        font-size: 2.5em;
+        color: #4e4e4e;
+    }
+
+/* ---------------------- */
+
+
+
+/* Menu */
+
+    #menu-principal {
+        color: white;
+    }
+
+    #menu-principal a {
+        display: inline-block;
+        margin-right: 20px;
+        color: white;
+        padding: 8px 12px;
+    }#menu-principal a:hover {
+        background-color: white;
+        color: #f7b600;
+    
+    }
+
+/* ---------------------- */
