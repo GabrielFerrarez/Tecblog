@@ -1,0 +1,185 @@
+/* Formatação */
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    body {
+        font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+        background-color: #e6e6e6;
+    }
+/* 
+    * {
+        border: solid red 1px;
+    } */
+
+/* ---------------------- */
+
+
+/* Cabeçalho */
+
+    header {
+        text-align: center;
+        background-color: #f5b400;
+    }
+
+/* ---------------------- */
+
+
+/* cabeçalho logo */
+
+     #menu-principal {
+        padding: 10px;
+    }
+
+    #logo {
+        padding: 20px 10px;
+    }
+
+    #logo>h1 {
+        font-size: 2.5em;
+        color: #4e4e4e;
+    }
+
+    .fonte-branca {
+        color: white;
+    }
+
+/* ---------------------- */
+
+
+
+/* Menu */
+
+    #menu-principal a {
+        display: inline-block;
+        margin-right: 0.5%;
+        color: white;
+        padding: 8px 12px;
+    }#menu-principal a:hover {
+        background-color: white;
+        color: #f7b600;
+    
+    }
+
+/* ---------------------- */
+
+
+
+/* Corpo com conteudo */
+
+section {
+    width: 90%;
+    margin: 15px auto 0 auto;
+}
+
+
+article {
+    width: 70%;
+    float: left;
+}
+
+article .conteudo-principal {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article .conteudo-principal h3 {
+    color: #f7b600;
+    font-size: 24px;
+}
+
+article .conteudo-principal span {
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 12.8px;
+}
+
+article .conteudo-principal img {
+    width: 100%;
+}
+
+
+
+
+aside {
+    width: 28%;
+    float: right;
+}
+
+aside .conteudo-lateral {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+aside .conteudo-lateral h3 {
+    background-color: #cccc;
+    padding: 5px;
+    margin-bottom: 2px;
+    color: #565656;
+}
+
+aside #menu-lateral-1 .box-recent-post {
+    padding: 5px;
+}
+
+aside #menu-lateral-1 p {
+    font-size: 12.8px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.ler-mais {
+    display: inline;
+    color: #f5b500;
+    cursor: pointer;
+}
+
+aside #menu-lateral-1 .ler-mais {
+    font-size: 12.8px;
+}
+
+
+
+
+aside #menu-lateral-2 a {
+    display: block;
+    color: #f5b400;
+    margin: 8px;
+}
+
+
+
+
+footer {
+    clear: both;
+    background-color: #cccc;
+    font-size: 16px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+/* ----------------------- */
+
+
+
+@media (max-width: 999px){
+
+    article {
+        width: 100%;
+    }
+    
+    aside {
+        width: 100%;
+        float: left;
+        clear: both;
+    }
+}
