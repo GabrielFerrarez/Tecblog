@@ -18,6 +18,9 @@
 
 /* ---------------------- */
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* Cabeçalho */
 
@@ -57,12 +60,19 @@
     #menu-principal a {
         display: inline-block;
         margin-right: 0.5%;
-        color: white;
         padding: 8px 12px;
-    }#menu-principal a:hover {
+        border-radius: 2px;
+    }
+
+    #menu-principal a {
+        color: white;
+        transition: 0.5s;
+    }
+    
+    #menu-principal a:hover {
         background-color: white;
         color: #f7b600;
-    
+        transition: 0.5s;
     }
 
 /* ---------------------- */
@@ -111,6 +121,8 @@ article .conteudo-principal img {
 aside {
     width: 28%;
     float: right;
+    position:sticky;
+    top: 15px;
 }
 
 aside .conteudo-lateral {
@@ -181,5 +193,6 @@ footer {
         width: 100%;
         float: left;
         clear: both;
+        position: static;
     }
 }
